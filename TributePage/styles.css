@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 30px 8px;
+}
+
+#main {
+    background-color: lightgrey;
+    padding: 15px;
+}
+
+h1, h2, p, figcaption {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 30px 0 0 0;
+}
+
+#description {
+    font-size: 1.6rem;
+    margin: 16px 0;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-self: center;
+}
+
+figcaption {
+    margin: 15px 0 5px 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#tribute-info {
+    width: 100%;
+}
+
+#tribute-info h2 {
+    margin: 50px;
+    font-size: 2rem;
+}
+
+#tribute-info ul {
+    max-width: 550px;
+    padding-left: 30px;
+    margin: 0 auto 50px auto;
+}
+
+#comment {
+    max-width: 550px;
+    text-align: left;
+    margin: 16px 0;
+}
+
