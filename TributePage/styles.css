@@ -5,14 +5,17 @@
 
 html {
     font-size: 10px;
+    color: #333;
 }
 
 body {
     padding: 30px 8px;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 #main {
-    background-color: lightgrey;
+    background-color: #EEEEEE;
     padding: 15px;
 }
 
@@ -54,20 +57,30 @@ figcaption {
     width: 100%;
 }
 
-#tribute-info h2 {
+h2 {
     margin: 50px;
     font-size: 2rem;
 }
 
-#tribute-info ul {
+ul {
     max-width: 550px;
-    padding-left: 30px;
     margin: 0 auto 50px auto;
+    padding-left: 30px;
+    line-height: 1.6;
 }
 
-#comment {
-    max-width: 550px;
-    text-align: left;
+li {
     margin: 16px 0;
+}
+
+#comment, #quote {
+    max-width: 550px;
+    margin: 16px auto;
+    text-align: left;
+    font-style: italic;
+}
+
+#final {
+    margin-bottom: 15px;
 }
 
